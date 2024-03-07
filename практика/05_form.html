@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Формы</title>
+</head>
+<body>
+<h1>Формы</h1>
+<form>
+
+    <div>
+    <label for="unic id">Текст</label>
+    <input type="text" id="unic id">
+    </div>
+
+    <div>
+    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="Введите Email">
+    </div>
+
+    <div>
+        <label for="password">Пароль</label>
+        <input type="password" id="password">
+    </div>
+
+    <div>
+        <label for="number">Число</label>
+        <input type="number" id="number" min="0">
+    </div>
+
+    <div>
+        <label for="range">Ползунок</label>
+        <input type="range" id="range" min="0" max="10" step="2">
+    </div>
+
+    <div>
+        <label for="date">Дата</label>
+        <input type="date" id="date">
+    </div>
+
+    <div>
+        <label for="color">Цвет</label>
+        <input type="color" id="color">
+    </div>
+
+    <div>
+        <label for="message">Сообщение</label>
+        <br>
+        <textarea id="message" cols="10" rows="5">
+        </textarea>
+    </div>
+
+    <div>
+    <label for="sex">Ваш пол</label>
+    <select id="sex">
+        <option value="">Мужчина</option>
+        <option value=""selected>Женщина</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <p>Варианты ответа</p>
+        <input type="radio" name="date"> 1931
+        <input type="radio" name="date"> 1942
+        <input type="radio" name="date"> 1955
+    </div>
+    <br>
+    <div>
+        <label> Варианты ответа </label>
+        <br>
+        <input type="checkbox" name="food"> яблоки
+        <input type="checkbox" name="food"> апельсины
+        <input type="checkbox" name="food"> груши
+    </div>
+    <br>
+    <button type="submit">Нажми на кнопку</button>
+</form>
+</body>
+</html>
